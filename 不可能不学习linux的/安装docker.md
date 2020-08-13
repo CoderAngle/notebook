@@ -84,7 +84,7 @@ rpm -qa|grep docker
 yum -y remove  containerd.io.x86_64
 ```
 
-### ![](/assets/azd-4.png)
+### ![](../assets/azd-4.png)
 
 ```
 镜像加速器地址
@@ -117,7 +117,7 @@ Registry Mirrors:
 docker ps -a
 ```
 
-![](/assets/azd-1.png)
+![](../assets/azd-1.png)
 
 ### 停止容器
 
@@ -137,7 +137,7 @@ docker rm 容器ID ##  需要先停止容器，才能进行删除
 docker images
 ```
 
-![](/assets/azd-2.png)
+![](../assets/azd-2.png)
 
 ### 删除镜像
 

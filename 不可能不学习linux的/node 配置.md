@@ -25,7 +25,5 @@ npm install -g npm
     n stable
 ```
 
-## 
-
 
 
