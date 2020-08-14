@@ -10,7 +10,7 @@
 
 > payload url 后面会配置到，等会过来配置
 
-![](../assets/jtbg-1.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200814003716.png)
 
 ![](../assets/jtbg-2.png)
 
