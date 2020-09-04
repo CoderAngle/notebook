@@ -1,7 +1,6 @@
-# 笔记目录
+# Your Book Title
 
 - Java
-  
   * [0.介绍](java/0.介绍.md)
 - Linux
   - 1.配置篇
@@ -21,10 +20,28 @@
     * [安装docker](linux/1.配置篇/安装docker.md)
 - Python
   - 3.数据库
+    * [Memached](python/3.数据库/memached.md)
+    * [Mongo DB](python/3.数据库/MongoDB.md)
+    * [Redis](python/3.数据库/redis.md)
     * [Sqlalchemy](python/3.数据库/sqlalchemy.md)
   - 5.web
     - Flask
-      * [Flask Sqlalchemy](python/5.web/flask/flask-sqlalchemy.md)
+      * [1.前言](python/5.web/flask/1.前言.md)
+      * [10.flask 信号](python/5.web/flask/10.flask 信号.md)
+      * [11.RESTFUL](python/5.web/flask/11.RESTFUL.md)
+      * [12.ajax](python/5.web/flask/12.ajax.md)
+      * [13.flask-mail](python/5.web/flask/13.flask-mail.md)
+      * [14.flask+celery](python/5.web/flask/14.flask+celery.md)
+      * [15.部署](python/5.web/flask/15.部署.md)
+      * [16.flask-login](python/5.web/flask/16.flask-login.md)
+      * [2.路由](python/5.web/flask/2.路由.md)
+      * [3.模板](python/5.web/flask/3.模板.md)
+      * [4.视图进阶](python/5.web/flask/4.视图进阶.md)
+      * [5.flask-sqlalchemy](python/5.web/flask/5.flask-sqlalchemy.md)
+      * [6.表单WTForms](python/5.web/flask/6.表单WTForms.md)
+      * [7.session与cookie](python/5.web/flask/7.session与cookie.md)
+      * [8.上下文](python/5.web/flask/8.上下文.md)
+      * [9.钩子函数](python/5.web/flask/9.钩子函数.md)
   - 6.机器学习
     - 1.准备工作
       * [0.简介](python/6.机器学习/1.准备工作/0.简介.md)
@@ -35,7 +52,6 @@
       * [3.Scipy](python/6.机器学习/2.数据分析/3.Scipy.md)
       * [4.Matplotlib](python/6.机器学习/2.数据分析/4.Matplotlib.md)
       * [5.seaborn](python/6.机器学习/2.数据分析/5.seaborn.md)
-      * [6.Pandas绘画](python/6.机器学习/2.数据分析/6.Pandas绘画.md)
     - 3.算法
       * [0.简介](python/6.机器学习/3.算法/0.简介.md)
       * [1.数学基础](python/6.机器学习/3.算法/1.数学基础.md)
