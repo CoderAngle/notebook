@@ -15,8 +15,6 @@
 * github 存储笔记以及作为图床
 * gitbook 作为笔记展示的地方，能够获取github的笔记
 
-### 累啊
-
 ### 目录
 
 [预览](https://thefoxfairy.github.io/notebook/SUMMARY)
