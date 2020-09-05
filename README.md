@@ -1,4 +1,4 @@
-## [笔记记录](https://thefoxfairy.gitbook.io/notes/)
+## [笔记记录](https://thefoxfairy.gitbook.io)
 
 [![图片的语法](assets/FoxFairy-%E4%B8%93%E5%B1%9E%E7%AC%94%E8%AE%B0-orange.svg)](https://thefoxfairy.gitbook.io/notes/)
 
@@ -16,4 +16,10 @@
 * gitbook 作为笔记展示的地方，能够获取github的笔记
 
 ### 累啊
+
+### 目录
+
+[预览](./summary.md)
+
+
 
