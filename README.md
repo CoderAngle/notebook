@@ -19,7 +19,7 @@
 
 ### 目录
 
-[预览](.https://thefoxfairy.github.io/notebook/SUMMARY)
+[预览](https://thefoxfairy.github.io/notebook/SUMMARY)
 
 
 
