@@ -1,6 +1,7 @@
-# Your Book Title
+# 目录
 
 - Java
+  
   * [0.介绍](java/0.介绍.md)
 - Linux
   - 1.配置篇
@@ -39,6 +40,8 @@
       * [2.路由](python/5.web/flask/2.路由.md)
       * [20.flask-pjax](python/5.web/flask/20.flask-pjax.md)
       * [21.flask 上传文件到第三方](python/5.web/flask/21.flask 上传文件到第三方.md)
+      * [22.flask-restless](python/5.web/flask/22.flask-restless.md)
+      * [23.flask-redis](python/5.web/flask/23.flask-redis.md)
       * [3.模板](python/5.web/flask/3.模板.md)
       * [4.视图进阶](python/5.web/flask/4.视图进阶.md)
       * [5.flask-sqlalchemy](python/5.web/flask/5.flask-sqlalchemy.md)

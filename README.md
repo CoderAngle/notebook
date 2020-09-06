@@ -1,4 +1,4 @@
-## [笔记记录](https://thefoxfairy.gitbook.io)
+## [笔记记录](https://github.com/TheFoxFairy/notebook#readme)
 
 [![图片的语法](assets/FoxFairy-%E4%B8%93%E5%B1%9E%E7%AC%94%E8%AE%B0-orange.svg)](https://thefoxfairy.gitbook.io)
 
@@ -17,7 +17,7 @@
 
 ### 目录
 
-[预览](https://thefoxfairy.github.io/notebook/SUMMARY)
+[预览](./summary.md)
 
 
 
