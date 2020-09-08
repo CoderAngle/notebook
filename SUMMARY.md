@@ -1,23 +1,39 @@
-# 目录
+# Your Book Title
 
+- C
+  - 1.基础篇
+    * [1.配置环境](c/1.基础篇/1.配置环境.md)
+    * [2.一个“Hello World”实例](c/1.基础篇/2.一个“Hello World”实例.md)
 - Java
-  
+  - 1.基础篇
+    * [1.java语言基础](java/1.基础篇/1.java语言基础.md)
+    * [2.流程控制](java/1.基础篇/2.流程控制.md)
+    * [3.数组与字符串](java/1.基础篇/3.数组与字符串.md)
+    * [4.类](java/1.基础篇/4.类.md)
+    * [5.Java语言类的特性](java/1.基础篇/5.Java语言类的特性.md)
+    * [6.继承、抽象类和接口](java/1.基础篇/6.继承、抽象类和接口.md)
+    * [7.异常处理](java/1.基础篇/7.异常处理.md)
+    * [8.java语言的输入输出与文件处理](java/1.基础篇/8.java语言的输入输出与文件处理.md)
+  - 2.进阶篇
+    * [1.多线程](java/2.进阶篇/1.多线程.md)
+    * [2.泛型与容器类](java/2.进阶篇/2.泛型与容器类.md)
+    * [3.图形界面设计](java/2.进阶篇/3.图形界面设计.md)
   * [0.介绍](java/0.介绍.md)
 - Linux
   - 1.配置篇
-    * [centos 配置](linux/1.配置篇/centos 配置.md)
     * [CentOS修改yum源为阿里源](linux/1.配置篇/CentOS修改yum源为阿里源.md)
     * [centos安装宝塔](linux/1.配置篇/centos安装宝塔.md)
-    * [docker web容器管理](linux/1.配置篇/docker web容器管理.md)
-    * [docker 安装hexo](linux/1.配置篇/docker 安装hexo.md)
-    * [docker 安装mysql](linux/1.配置篇/docker 安装mysql.md)
-    * [docker 安装nginx 并个性化配置](linux/1.配置篇/docker 安装nginx 并个性化配置.md)
-    * [docker 安装solo](linux/1.配置篇/docker 安装solo.md)
+    * [centos配置](linux/1.配置篇/centos配置.md)
+    * [docker安装hexo](linux/1.配置篇/docker安装hexo.md)
     * [docker安装Jenkins](linux/1.配置篇/docker安装Jenkins.md)
+    * [docker安装mysql](linux/1.配置篇/docker安装mysql.md)
+    * [docker安装nginx 并个性化配置](linux/1.配置篇/docker安装nginx 并个性化配置.md)
+    * [docker安装solo](linux/1.配置篇/docker安装solo.md)
+    * [docker对web容器管理](linux/1.配置篇/docker对web容器管理.md)
     * [docker搭建网易云音乐API](linux/1.配置篇/docker搭建网易云音乐API.md)
-    * [jenkins 同步 github](linux/1.配置篇/jenkins 同步 github.md)
+    * [jenkins同步github](linux/1.配置篇/jenkins同步github.md)
     * [Linux系统安装Python3](linux/1.配置篇/Linux系统安装Python3.md)
-    * [node 配置](linux/1.配置篇/node 配置.md)
+    * [node配置](linux/1.配置篇/node配置.md)
     * [安装docker](linux/1.配置篇/安装docker.md)
 - Python
   - 3.数据库
@@ -42,6 +58,7 @@
       * [21.flask 上传文件到第三方](python/5.web/flask/21.flask 上传文件到第三方.md)
       * [22.flask-restless](python/5.web/flask/22.flask-restless.md)
       * [23.flask-redis](python/5.web/flask/23.flask-redis.md)
+      * [24.flask flash](python/5.web/flask/24.flask flash.md)
       * [3.模板](python/5.web/flask/3.模板.md)
       * [4.视图进阶](python/5.web/flask/4.视图进阶.md)
       * [5.flask-sqlalchemy](python/5.web/flask/5.flask-sqlalchemy.md)
@@ -59,6 +76,8 @@
       * [3.Scipy](python/6.机器学习/2.数据分析/3.Scipy.md)
       * [4.Matplotlib](python/6.机器学习/2.数据分析/4.Matplotlib.md)
       * [5.seaborn](python/6.机器学习/2.数据分析/5.seaborn.md)
+      * [6.skealrn](python/6.机器学习/2.数据分析/6.skealrn.md)
+      * [7.keras](python/6.机器学习/2.数据分析/7.keras.md)
     - 3.算法
       * [0.简介](python/6.机器学习/3.算法/0.简介.md)
       * [1.数学基础](python/6.机器学习/3.算法/1.数学基础.md)

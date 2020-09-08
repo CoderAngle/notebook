@@ -17,7 +17,11 @@
 
 ### 目录
 
-[预览](./summary.md)
+[预览](./SUMMARY.md)
+
+### 笔记地址
+
+[阅读](https://thefoxfairy.gitbook.io/notebook/)
 
 
 
