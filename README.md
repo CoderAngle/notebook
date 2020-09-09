@@ -21,7 +21,7 @@
 
 ### 笔记地址
 
-[阅读](https://thefoxfairy.gitbook.io/notebook/)
+[阅读](https://thefoxfairy.gitbook.io/)
 
 
 
