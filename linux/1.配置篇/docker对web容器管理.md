@@ -77,21 +77,21 @@ curl -sSL https://shipyard-project.com/deploy | ACTION=node DISCOVERY=etcd://hos
 
 可以对Container进行重启、停止、暂停、删除、扩展、重命名、提交、查看状态监控/日志、及console登录等。
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442bed296c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442bed296c)
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442c2d9897?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442c2d9897)
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442bec2b6f?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442bec2b6f)
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442c600d6a?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442c600d6a)
 
 * ##### images管理
 
-可以pull为images打tag
+可以pull为images打tags
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442c858b5b?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442c858b5b)
 
 * ###### **Nodes管理**
 
-![](https://user-gold-cdn.xitu.io/2019/3/5/1694bd442d8452bf?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](../../assets/1694bd442d8452bf)
 

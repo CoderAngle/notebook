@@ -6,7 +6,7 @@
 
 ### 安装docker
 
-[点我进行学习](/环境配置/安装docker.md)
+[点我进行学习](./安装docker.md)
 
 ### 安装solo
 
@@ -99,7 +99,7 @@ rm -rf 挂载的markdowns位置/SUMMARY.md && docker restart solo容器
 
 * 添加音乐
 
-![](../assets/ｄａｚｓ－１.png)
+![](../../assets/ｄａｚｓ－１.png)
 
 > 分别所在位置填写如下信息
 
