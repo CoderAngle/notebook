@@ -831,13 +831,11 @@ bind 127.0.0.1 本机地址
   - 找到配置文件，使用notepad记事本打开
 - 找到bind,进行修改绑定本机地址
 
-
-
 ```
 bind 127.0.0.1 本机地址
 ```
 
-# **![img](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LRVkg0RkgAqJjxkmCWL%2F-LRVl2riJ51Bs559M-Lk%2F-LRVmhXvBIxDii7PItH4%2F1.4.4.1.10-1.png?generation=1542443425220371&alt=media)**
+![image-20200914181131209](../../assets/image-20200914181131209.png)
 
 #### **redis问题**
 
@@ -955,3 +953,4 @@ op_redis = Redis(host="192.168.5.128",port=6379)
 # 从email频道发布
 op_redis.publish('email','python')
 ```
+
