@@ -323,22 +323,23 @@ sudo docker ps
 
 ##### **可视化工具**
 
-RoboMongo/Robo 3T，官方网站：https://robomongo.org/，下载链接：https://robomongo.org/download。
+- RoboMongo/Robo 3T，官方网站：https://robomongo.org/，下载链接：https://robomongo.org/download。
 
-Studio 3T，官方网站：[https://studio3t.com](https://studio3t.com/)，下载链接：https://studio3t.com/download/。
+- Studio 3T，官方网站：[https://studio3t.com](https://studio3t.com/)，下载链接：https://studio3t.com/download/。
+
 
 ### 连接数据库
 
 通过pymongo库中的MongoClient，连接MongoDB数据库，有两种连接方式:
 
-第一种:
+第一种：
 
 ```
 import pymongo
 client = pymongo.MongoClient(host='localhost',port=27017)
 ```
 
-第二种:
+第二种：
 
 ```
 import pymongo
@@ -381,17 +382,13 @@ print(result)
 
 insert() 方法会在执行后返回的 _id 值，_id值是每一条数据的唯一标识，如果没有显示指明_id，MongoDB会自动产生一个ObjectId类型的_id属性
 
-运行结果:
-
-
+运行结果：
 
 ```
 5b684a54bd880b468471dccf
 ```
 
 如果有多个值，可以以列表形式写入
-
-
 
 ```
 import pymongo
@@ -401,9 +398,7 @@ student1 = {    "name":"angle",    "age":20,}
 student2 = {    "name":"angle",    "age":20,}result = collection.insert([student1,student2])print(result)
 ```
 
-运行结果:
-
-
+运行结果：
 
 ```
 [ObjectId('5b684e83bd880b4408713464'), ObjectId('5b684e83bd880b4408713465')]
@@ -414,25 +409,19 @@ student2 = {    "name":"angle",    "age":20,}result = collection.insert([student
 - insert_one():插入一条数据
 - insert_many():插入多条数据
 
-
-
 ```
 # 插入单挑数据
 result = collection.insert_one(student)
 print(result)
 ```
 
-运行结果:
-
-
+运行结果：
 
 ```
 <pymongo.results.InsertOneResult object at 0x000002744113BF48>
 ```
 
 返回结果和 insert() 方法不同，返回的是InsertOneResult 对象，可以调用其 inserted_id 属性获取 _id
-
-
 
 ```
 # 插入多条数据
@@ -442,9 +431,7 @@ print(result)
 print(result.inserted_ids)
 ```
 
-运行结果:
-
-
+运行结果：
 
 ```
 <pymongo.results.InsertManyResult object at 0x000001BBFFE2AF88>
@@ -462,7 +449,7 @@ print(type(result))
 print(result)
 ```
 
-运行结果:
+运行结果：
 
 ```
 <class 'dict'>
@@ -478,7 +465,7 @@ print(type(result))
 print(result)
 ```
 
-运行结果:
+运行结果：
 
 ```
 <class 'dict'>
@@ -494,7 +481,7 @@ for result in results:
     print(result)
 ```
 
-运行结果:
+运行结果：
 
 ```
 <pymongo.cursor.Cursor object at 0x0000022AED824518>
@@ -514,7 +501,7 @@ student= {    "name":"miku",    "age":18,}
 result = collection.insert_one(student)
 ```
 
-条件语句通过以字典形式书写:
+条件语句通过以字典形式书写：
 
 ```
 {'$lt':20}
@@ -526,7 +513,7 @@ for result in results:
     print(result)
 ```
 
-运行结果:
+运行结果：
 
 ```
 {'_id': ObjectId('5b68513cbd880b4dd0e128c7'), 'name': 'miku', 'age': 18}

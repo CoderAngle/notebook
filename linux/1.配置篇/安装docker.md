@@ -53,7 +53,8 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
         "https://1nj0zren.mirror.aliyuncs.com",
         "https://docker.mirrors.ustc.edu.cn",
         "http://f1361db2.m.daocloud.io",
-        "https://registry.docker-cn.com"/etc/docker/daemon.json
+        "https://registry.docker-cn.com"
+        ]
 }
 EOF
 sudo systemctl daemon-reload
@@ -70,7 +71,8 @@ vim /etc/docker/daemon.json
         "https://1nj0zren.mirror.aliyuncs.com",
         "https://docker.mirrors.ustc.edu.cn",
         "http://f1361db2.m.daocloud.io",
-        "https://registry.docker-cn.com"/etc/docker/daemon.json
+        "https://registry.docker-cn.com"
+        ]
 }
 ```
 
