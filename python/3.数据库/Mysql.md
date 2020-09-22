@@ -374,13 +374,13 @@ db.close()
 
 ### 删除数据
 
-
+mysql语句：
 
 ```
-mysql语句:delete from table where 条件
+delete from table where 条件
 ```
 
-
+实现：
 
 ```
 import pymysql
@@ -402,6 +402,8 @@ db.close()
 
 ### 查询数据
 
+查询：
+
 ```
 手动添加两条数据
 mysql> insert into students values("angle",18);
@@ -411,7 +413,7 @@ mysql> insert into students values("miku",18);
 Query OK, 1 row affected (0.09 sec)
 ```
 
-
+实现：
 
 ```
 import pymysql
