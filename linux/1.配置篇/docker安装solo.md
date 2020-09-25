@@ -99,7 +99,7 @@ rm -rf 挂载的markdowns位置/SUMMARY.md && docker restart solo容器
 
 * 添加音乐
 
-![](../../assets/ｄａｚｓ－１.png)
+![image-20200922225051559](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225159.png)
 
 > 分别所在位置填写如下信息
 

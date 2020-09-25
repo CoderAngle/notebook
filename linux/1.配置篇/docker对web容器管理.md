@@ -77,21 +77,21 @@ curl -sSL https://shipyard-project.com/deploy | ACTION=node DISCOVERY=etcd://hos
 
 可以对Container进行重启、停止、暂停、删除、扩展、重命名、提交、查看状态监控/日志、及console登录等。
 
-![](../../assets/1694bd442bed296c)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225231)
 
-![](../../assets/1694bd442c2d9897)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225232)
 
-![](../../assets/1694bd442bec2b6f)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225233)
 
-![](../../assets/1694bd442c600d6a)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225234)
 
 * ##### images管理
 
 可以pull为images打tags
 
-![](../../assets/1694bd442c858b5b)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225235)
 
 * ###### **Nodes管理**
 
-![](../../assets/1694bd442d8452bf)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225236)
 

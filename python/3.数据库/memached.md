@@ -98,11 +98,11 @@ windows下可能没有启动telnet，需要手动启动telnet服务
 
 首先win+R，在弹出框中输入control并点击打开，打开后，点击程序，可以看见如下图所示
 
-![img](../../assets/1.4.2.1-1.png)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922230847.png)
 
 然后点击启用或关闭Windows功能
 
-![img](../../assets/1.4.2.1-2.png)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922230848.png)
 
 打开后，勾选telnet客户端选项，然后点击确定，便可以安装telent了，安装完成后，重启后，便可以正式使用了。
 

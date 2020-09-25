@@ -46,7 +46,7 @@ MongoDB 支持多种平台，包括 Windows、Linux、Mac OS、Solaris 等，在
 
 直接在官网下载安装包即可，链接为：https://www.mongodb.com/download-center#community
 
-![img](../../assets/1-29.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922231053.jpg)
 
 直接点击 Download 下载 msi 安装包即可。
 

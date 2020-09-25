@@ -10,9 +10,9 @@
 
 > payload url 后面会配置到，等会过来配置
 
-![](../../assets/20200913132735.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225943.png)
 
-![](../../assets/jtbg-2.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225944.png)
 
 ### 
 
@@ -20,9 +20,9 @@
 
 点击在右上角**settings**，剩下如下操作
 
-![](../../assets/jtbg-5.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225945.png)
 
-![](../../assets/jtbg-3.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225946.png)
 
 > 注意，记下当前密钥
 
@@ -30,17 +30,17 @@
 
 如下操作
 
-![](../../assets/jtbg-6.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225947.png)
 
 ### 配置ssh
 
 * 先填下对应信息
 
-![](../../assets/jtbg-7.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225948.png)
 
 * 然后配置凭据
 
-![](../../assets/jtbg-8.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225949.png)
 
 * 用户名:服务器账号
 * 密码:服务器密码
@@ -57,14 +57,14 @@ Successfull connection
 
 点击高级选项，然后先配置如下信息
 
-![](../../assets/jtbg-10.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225950.png)
 
 * 在Hook URL处的ur记住，这个地址应该填在上面所述的payload url 处
 * 名称:自定义
 * API URL:不能修改
 * 凭据:如下
 
-![](../../assets/jtbg-11.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225951.png)
 
 * secret：填写刚才在github生成的密钥
 * ID:自定义
@@ -72,7 +72,7 @@ Successfull connection
 
 ### Git配置
 
-![](../../assets/jtbg-12.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225952.png)
 
 ### 
 
@@ -80,7 +80,7 @@ Successfull connection
 
 步骤简单，就不说了
 
-![](../../assets/jtbg-13.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225953.png)
 
 ### 创建Job
 
@@ -90,15 +90,15 @@ Successfull connection
 
 #### github 配置
 
-![](../../assets/jtbg-14.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225954.png)
 
 #### git 配置
 
-![](../../assets/jtbg-17.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225955.png)
 
 #### 配置git凭据
 
-![](../../assets/jtbg-16.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225956.png)
 
 * 用户名:github用户名或者邮箱
 * 密码:github账号密码
@@ -108,7 +108,7 @@ Successfull connection
 
 如图勾选，这样，当本地提交项目到github时，就能够自动触发进行部署
 
-![](../../assets/jtbg-18.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225957.png)
 
 到这样里，就可以已经完成了，自动化部署，等下进行测试
 
@@ -116,7 +116,7 @@ Successfull connection
 
 由于自动化部署的项目，没有部署到理想的路，因此在这里执行远程命令，将项目移动正确的位置
 
-![](../../assets/jbtg-19.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200922225958.png)
 
 * SSH SITE:在前面已经配置好了，选中即可
 * Command:这里是远程在服务器命令行中所执行的命令

@@ -60,7 +60,7 @@ drop database 数据库名;
 create database 数据库名 charset=utf8;
 ```
 
-![](../../assets/mysql-1.png)
+![image-20200922231214409](../../assets/image-20200922231214409.png)
 
 ### 选择数据库
 
