@@ -52,17 +52,17 @@ MongoDB 支持多种平台，包括 Windows、Linux、Mac OS、Solaris 等，在
 
 下载完成之后双击开始安装，指定 MongoDB 的安装路径，例如在此处我指定安装路径为 C:\MongoDB\Server\3.4，当然路径可以自行选择
 
-![img](../../assets/1-30.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222727.jpg)
 
 点击下一步执行安装即可。
 
 安装成功之后，进入 MongoDB 的安装目录，在此处所在路径是 C:\MongoDB\Server\3.4，在 bin 目录下新建同级目录 data
 
-![img](../../assets/1-31.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222728.jpg)
 
 然后进入 data 文件夹新建子文件夹 db，作为数据目录存储的文件夹
 
-![img](../../assets/1-32.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222729.jpg)
 
 之后打开命令行，进入 MongoDB 安装目录的 bin 目录下，运行 MongoDB 服务：
 
@@ -72,19 +72,19 @@ mongod --dbpath "C:\MongoDB\Server\3.4\data\db"
 
 此处的路径替换成你的主机 MongoDB 安装路径。
 
-![img](../../assets/1-33.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222730.jpg)
 
 如果想一直使用 MongoDB 就不能关闭此命令行，如果意外关闭或重启 MongoDB 服务就不能使用了，这显然不是想要的，所以接下来还需将 MongoDB 配置成系统服务。
 
 首先要以管理员模式运行命令行，注意此处一定要是管理员模式运行，否则可能配置失败：
 
-![img](../../assets/1-34.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222731.jpg)
 
 开始菜单搜索 cmd，找到命令行，然后右键以管理员身份运行即可。
 
 随后新建一个日志文件，在 bin 目录同级目录新建 logs 文件夹，进入之后新建一个 mongodb.log 文件，用于保存 MongoDB 运行的日志。
 
-![img](../../assets/1-35.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222732.jpg)
 
 在命令行下输入如下内容：
 
@@ -94,17 +94,17 @@ mongod --bind_ip 0.0.0.0 --logpath "C:\MongoDB\Server\3.4\logs\mongodb.log" --lo
 
 这里的意思是绑定 IP 为 0.0.0.0，即任意 IP 均可访问，指定日志路径、数据库路径、端口，指定服务名称，注意这里依然需要把路径替换成你的 MongoDB 安装路径，运行此命令后即可安装服务。
 
-![img](../../assets/1-36.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222733.jpg)
 
 如果没有出现错误提示，则证明 MongoDB 服务已经安装成功。
 
-![img](../../assets/1-37.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222734.jpg)
 
 可以设置它的开机启动方式，如自动启动或手动启动等。这样就可以非常方便地管理 MongoDB 服务了。
 
 启动服务之后在命令行下就可以利用 mongo 命令进入 MongoDB 命令交互环境。
 
-![img](../../assets/1-38.jpg)
+![img](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222735.jpg)
 
 这样 Windows 下 MongoDB 配置就完成了。
 

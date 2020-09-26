@@ -1,3 +1,8 @@
+---
+typora-root-url: assets
+typora-copy-images-to: upload
+---
+
 # 个人笔记记录
 
 [![图片的语法](assets/FoxFairy-%E4%B8%93%E5%B1%9E%E7%AC%94%E8%AE%B0-orange.svg)](https://thefoxfairy.gitbook.io)
@@ -32,10 +37,10 @@
 #### 时间：2020/9~2020/12
 
 * [ ] 机器学习算法
-   * [ ] 线性回归
-   * [ ] 梯度下降
-   * [ ] 线性回归
-   * [ ] 线性分类
+   * [x] 线性回归
+   * [x] 梯度下降
+   * [x] 线性回归
+   * [x] 线性分类
    * [ ] 降维
    * [ ] 支持向量机
    * [ ] 核方法

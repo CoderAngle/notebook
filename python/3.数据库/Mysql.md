@@ -60,7 +60,7 @@ drop database 数据库名;
 create database 数据库名 charset=utf8;
 ```
 
-![image-20200922231214409](../../assets/image-20200922231214409.png)
+![image-20200922231214409](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222811.png)
 
 ### 选择数据库
 
@@ -123,7 +123,7 @@ PRIMARY KEY关键字用于定义列为主键。 您可以使用多列来定义�
 ENGINE 设置存储引擎，CHARSET 设置编码。
 ```
 
-![](../../assets/mysql-2.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222812.png)
 
 ### 删除数据表
 
@@ -137,7 +137,7 @@ drop table 表名;
 insert into 表名(列名1,,列名2,...,列名n) values (值1,值2,...,值n)
 ```
 
-![](../../assets/mysql-3.png)
+![](https://cdn.jsdelivr.net/gh/TheFoxFairy/notebook-picgo@master/img/20200925222813.png)
 
 ### 查询数据
 
